@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2196F3</color>
+    <color name="colorPrimaryDark">#1976D2</color>
+    <color name="colorAccent">#03A9F4</color>
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="windowBackground">#FFFFFF</color>
+    <color name="about">#111264</color>
+    <color name="home">#23336E</color>
+    <color name="feedback">#373D3f</color>
+    <color name="feedbacks">#0F0F0F</color>
+
+    <color name="colorBlack">#bbb</color>
+    <color name="colorOrange">#E85E34</color>
+    <color name="colorWhite">#fff</color>
+</resources>

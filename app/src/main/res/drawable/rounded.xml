@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<stroke
+    android:width="3dp"
+    android:color="#fff"/>
+                <solid
+                    android:color="#fe3"/>
+
+            <size
+                android:height="50dp"
+                android:width="50dp"/>
+
+            <corners
+                android:radius="5dp"
+                android:topRightRadius="120dp"/>
+        </shape>
+    </item>
+
+</selector>

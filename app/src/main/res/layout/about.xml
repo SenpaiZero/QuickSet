@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.About">
+
+    <LinearLayout
+        android:id="@+id/lin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/bggg"
+        android:paddingTop="35dp">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/app"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/appname"
+            android:fontFamily="@font/sniglet_extrabold"
+            android:textAlignment="center"
+            android:layout_centerInParent="true"
+            android:textSize="30dp"/>
+    </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_horizontal"
+                android:layout_marginTop="10dp">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/justine"
+            android:layout_width="90dp"
+            android:layout_height="90dp"
+            app:civ_border_width="5dp"
+            android:src="@drawable/justine"
+            android:clickable="true"
+            android:layout_marginRight="10dp"
+            android:layout_alignParentTop="true"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/robert"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:clickable="true"
+                android:src="@drawable/robert"
+                app:civ_border_width="5dp"
+                android:layout_toRightOf="@+id/justine"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/albao"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:clickable="true"
+                android:src="@drawable/juliana"
+                app:civ_border_width="5dp"
+                android:layout_marginRight="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/ygi"
+                android:layout_width="90dp"
+                android:clickable="true"
+                android:layout_height="90dp"
+                android:src="@drawable/ygi"
+                android:layout_toRightOf="@+id/albao"
+                app:civ_border_width="5dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/far"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:clickable="true"
+                android:src="@drawable/fernaida"
+                android:layout_toRightOf="@+id/ygi"
+                app:civ_border_width="5dp"
+                android:layout_marginLeft="10dp"/>
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/cherish"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/cherish"
+                android:clickable="true"
+                app:civ_border_width="5dp"
+                android:layout_marginRight="10dp"/>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/aubrey"
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:src="@drawable/aubrey"
+                android:clickable="true"
+                android:layout_toRightOf="@+id/cherish"
+                app:civ_border_width="5dp"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:fontFamily="@font/sniglet_extrabold"
+                android:textSize="25dp"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="15dp"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/rel">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CONTENT/PARAGRAPH ABOUT US"
+                android:textAlignment="center"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
